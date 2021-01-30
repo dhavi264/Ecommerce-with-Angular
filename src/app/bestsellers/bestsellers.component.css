@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+
+.nav-item{
+       left: 50%;
+       padding: 10px;
+}
+.container{
+   width: 25%;
+   height: 30%;
+}
+.imga img{
+   width: 30%;
+   height: 30%;
+   padding: 4px;
+   filter:drop-shadow(0px 5px 3px black);
+}
+.column {
+    margin: 1%;
+    box-sizing: border-box;
+}
+.column img{
+             width: 150px;
+             height: 150px;
+}
+p{
+    color: white;
+}

@@ -1,0 +1,20 @@
+body{
+         margin: 0px;
+}
+.nav-item:hover{
+       border-top: 1px solid white;
+       
+}
+.nav-item{
+            left: 30%;
+}
+.container{
+        width: 25%;
+        height: 30%;
+}
+.imga img{
+        width: 30%;
+        height: 30%;
+        padding: 4px;
+        filter:drop-shadow(0px 5px 3px black);
+}

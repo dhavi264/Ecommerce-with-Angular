@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+    .navbar-brand{
+        font-family: 'Fugaz One', cursive;
+        color: white;
+    }
+    .nav-link{
+         margin-left: 15px;
+    }
+   
+    .btn{
+           margin-left: 1%;
+    }
+    .btn:hover{
+                color: black;
+    }
+    .nav-link:hover{
+                       border-bottom: 2px solid white;
+                       border-radius: 10px;
+                       height: 50px;
+                       color:black;
+    }

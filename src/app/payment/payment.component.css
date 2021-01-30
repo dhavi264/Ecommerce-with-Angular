@@ -1,0 +1,29 @@
+.container{
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.pay{
+       width: 100%;
+       margin: 5%;
+}
+.row{
+       margin:1%;
+}
+.column{
+    margin-left: 1%;
+}
+.column img{
+     width: 50px;
+     height: 25px;
+     
+}
+.col{
+       width: 30%;
+}
+.btn{
+       margin-left: 40%;
+       margin-top: 3%;
+}

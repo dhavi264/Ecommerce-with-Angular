@@ -1,0 +1,168 @@
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+.column{
+  float: left;
+  width: 300px;
+  padding: 10px;
+  margin:1%;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+b{
+    font-size: 30px;
+}
+p{
+   font-size: 20px;
+}
+img{
+   width: 100px;
+   height: 100px;
+   cursor: pointer;
+}
+.row img:hover{
+            border: 2px solid red;
+}
+
+.col{
+  float: left;
+  width: 100px;
+  padding: 10px;
+  height: 100px;
+  box-sizing: border-box;
+}
+.col p{
+  font-size:18px;
+}
+.jumbotron{
+             text-align: center;
+}
+.jumbotron img{
+             height: 300px;
+             
+}
+#saree{
+        background-image: linear-gradient(#be03f7, #cf5bfd);
+        
+}
+.jumbotron:hover{
+                  background-image: linear-gradient(rgba(253, 119, 9, 0.658), #fff );
+}
+
+</style>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="">Mobiles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="electronics">Electronics</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white" href="bestsellers">Best Sellers</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white" href="todays">Today's Deals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="customer">Customer Service</a>
+      </li>
+    </ul>
+       
+  </div>
+</nav>
+<div class="row">
+   <div class="column bg-warning">
+     <b class="font-weight-bolder">Welcome User</b>
+     <p>Top Picks for you</p>
+    <div class="row">
+       <div class="col">
+         <img src="../assets/boxes.jpeg">
+         <p>Your Orders</p>
+       </div>
+       <div class="col">
+        <img src="../assets/jam.jfif">
+        <p >Grocery Store</p>
+      </div>
+     </div>
+
+     <div class="row" style="margin-top:10%;">
+      <div class="col">
+        <img src="../assets/mobiles.png">
+        <p>Mobiles</p>
+      </div>
+      <div class="col">
+       <img src="../assets/laptop.jpeg">
+       <p >Grocery Store</p>
+     </div>
+    </div>
+   </div>
+   <div class="column bg-primary">
+    <b class="font-weight-bolder text-white" style="font-size: 25px; padding: 5px;">Our Top Brands & More</b>
+    <div class="row">
+      <div class="col">
+        <img src="../assets/home.jpg">
+        <p class="font-text-bolder text-white">Home Products</p>
+      </div>
+      <div class="col">
+       <img src="../assets/kitchen.jpg">
+       <p class="font-text-bolder text-white">Home Products</p>
+     </div>
+    </div>
+
+
+    <div class="row" style="margin-top: 20%;">
+      <div class="col">
+        <img src="../assets/clothes.jpg">
+        <p class="font-text-bolder text-white">Clothing Essentials</p>
+      </div>
+      <div class="col">
+       <img src="../assets/watches.jpg">
+       <a  href ="watches" class="font-text-bolder text-white">Branded Watches</a>
+     </div>
+    </div>
+   </div> 
+   <div class="column bg-success">
+
+    <b class="font-weight-bolder text-white">Men's Casual wear</b>
+     <p class="text-white">Upto <b>40%</b> off</p>
+    <div class="row">
+       <div class="col">
+         <img src="../assets/shirts.jpg">
+         <p class="text-white">Shirts, T-shirts</p>
+       </div>
+       <div class="col">
+        <img src="../assets/shoes.jpg">
+        <p class="text-white">Casual Shoes</p>
+      </div>
+     </div>
+
+     <div class="row" style="margin-top:10%;">
+      <div class="col">
+        <img src="../assets/menswatch.jpg">
+        <p class="text-white">Mobiles</p>
+      </div>
+      <div class="col">
+       <img src="../assets/lowers.jpg">
+       <p class="text-white">Branded clothing</p>
+     </div>
+   </div>
+</div>
+</div>
+<div class="jumbotron">
+  <a><img src="../assets/jumbo.jfif" style="width: 90%"></a><br>
+  <p><b style="font-size: 60px;">40%</b> discount<br> on every Brand</p> 
+</div>
+
+<div class="jumbotron" id="saree">
+  <a><img src="../assets/sarees.jpg" style="width: 90%"></a>
+</div>

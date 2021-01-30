@@ -1,0 +1,24 @@
+.container{
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+.pay{
+       width: 100%;
+       margin: 1%;
+}
+h1{
+     font-family: cursive;
+     color: green;
+}
+p{
+    font-weight: bolder;
+    font-size: 30px;
+    color: green;
+}
+img{
+    width: 25%;
+}

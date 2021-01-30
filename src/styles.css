@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+     background-size: cover;
+     
+     background-repeat: no-repeat;
+     animation: bg_change 10s linear infinite;
+}
+#loading{
+           width: 100%;
+           height: 100vh;
+           background: #ffffff
+           url('assets/805.gif')
+           no-repeat center;
+           z-index: 99999;
+}
+@keyFrames bg_change{
+0%{
+    background-image: url("assets/bg1.png");
+}
+100%{
+    background-image: url("assets/bg2.jpg");
+}
+}
